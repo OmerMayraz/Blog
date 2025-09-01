@@ -21,7 +21,7 @@
       <description>&lt;h4&gt;
 &lt;u&gt;TL;DR:&lt;/u&gt;
 &lt;/h4&gt;
-In June 2025, I found a critical vulnerability in GitHub Copilot Chat (CVSS 9.6) that allowed silent exfiltration of secrets and source code from private repos, and gave me full control over Copilot’s responses - including suggesting malicious code or links. The attack combined &lt;b&gt;a novel CSP bypass using GitHub’s own infrastructure&lt;/b&gt; with &lt;b&gt;remote prompt injection &lt;/b&gt;&lt;br&gt;I reported it via HackerOne, and GitHub fixed it by disabling image rendering in Copilot Chat completely.
+In June 2025, I found a critical vulnerability in GitHub Copilot Chat (CVSS 9.6) that allowed silent exfiltration of secrets and source code from private repos, and gave me full control over Copilot’s responses - including suggesting malicious code or links. The attack combined &lt;b&gt;a novel CSP bypass using GitHub’s own infrastructure&lt;/b&gt; with &lt;b&gt;remote prompt injection. &lt;/b&gt;&lt;br&gt;I reported it via HackerOne, and GitHub fixed it by disabling image rendering in Copilot Chat completely.
 &lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;GitHub Copilot Chat is an AI assistant built into GitHub that helps developers by answering questions, explaining code, and suggesting implementations directly in their workflow. Copilot Chat is context-aware: it can use information from the repository (such as code, commits, or pull requests) to provide tailored answers.
 &lt;br&gt;As always, &lt;b&gt;more context, more attack surface.&lt;/b&gt;&lt;/p&gt;</description>
