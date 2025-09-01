@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Docs on Mayraz&#39;s Blog</title>
+    <link>http://localhost:1313/blog/docs/</link>
+    <description>Recent content in Docs on Mayraz&#39;s Blog</description>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Aug 2025 14:39:47 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Copilot Vulnerability</title>
+      <link>http://localhost:1313/blog/docs/github-copilot-exploit/</link>
+      <pubDate>Sun, 31 Aug 2025 14:39:47 +0300</pubDate>
+      <guid>http://localhost:1313/blog/docs/github-copilot-exploit/</guid>
+      <description>&lt;h3 id=&#34;blog-title&#34;&gt;Blog title&lt;/h3&gt;
+&lt;p&gt;this is the content&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

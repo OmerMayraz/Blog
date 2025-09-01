@@ -1,0 +1,34 @@
+/* Custom styles added to demo */
+
+.twitter-tweet {
+    margin: auto;
+}
+
+iframe {
+    border-radius: var(--radius) !important;
+}
+
+.home-info ul {
+    padding-inline-start: 0px;
+}
+
+.entry-cover img {
+    border: 1px solid var(--border);
+}
+
+.first-entry {
+    min-height: 20px;
+}
+
+/*.entry-cover img {
+    max-width: 400px;
+    min-width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+u {
+  text-decoration: underline;
+}

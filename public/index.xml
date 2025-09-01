@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mayraz&#39;s Blog</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content on Mayraz&#39;s Blog</description>
+    <image>
+      <title>Mayraz&#39;s Blog</title>
+      <url>http://localhost:1313/blog/images/papermod-cover.png</url>
+      <link>http://localhost:1313/blog/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Sep 2025 14:39:47 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CamoLeak: Critical GitHub Copilot Vulnerability Leaks Private Source Code</title>
+      <link>http://localhost:1313/blog/posts/copilot-vulnerability/</link>
+      <pubDate>Mon, 01 Sep 2025 14:39:47 +0300</pubDate>
+      <guid>http://localhost:1313/blog/posts/copilot-vulnerability/</guid>
+      <description>&lt;h4&gt;
+&lt;u&gt;TL;DR:&lt;/u&gt;
+&lt;/h4&gt;
+In June 2025, I found a critical vulnerability in GitHub Copilot Chat (CVSS 9.6) that allowed silent exfiltration of secrets and source code from private repos, and gave me full control over Copilot’s responses - including suggesting malicious code or links. The attack combined &lt;b&gt;a novel CSP bypass using GitHub’s own infrastructure&lt;/b&gt; with &lt;b&gt;remote prompt injection &lt;/b&gt;&lt;br&gt;I reported it via HackerOne, and GitHub fixed it by disabling image rendering in Copilot Chat completely.
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;GitHub Copilot Chat is an AI assistant built into GitHub that helps developers by answering questions, explaining code, and suggesting implementations directly in their workflow. Copilot Chat is context-aware: it can use information from the repository (such as code, commits, or pull requests) to provide tailored answers.
+&lt;br&gt;As always, &lt;b&gt;more context, more attack surface.&lt;/b&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gitlab Duo Remote Prompt Injection Leads to Source Code Theft</title>
+      <link>http://localhost:1313/blog/posts/gitlab-duo-vulnerability/</link>
+      <pubDate>Sun, 31 Aug 2025 14:39:47 +0300</pubDate>
+      <guid>http://localhost:1313/blog/posts/gitlab-duo-vulnerability/</guid>
+      <description>&lt;h4&gt;
+&lt;u&gt;TL:DR;&lt;/u&gt;
+&lt;/h4&gt;
+A hidden comment was enough to make GitLab Duo leak private source code and inject untrusted HTML into its responses. GitLab patched the issue, and we’ll walk you through the full attack chain — which demonstrates five vulnerabilities from the 2025 OWASP Top 10 for LLMs.
+&lt;p&gt;&lt;br&gt;Full blog can be found &lt;a href=&#34;https://www.legitsecurity.com/blog/remote-prompt-injection-in-gitlab-duo&#34;&gt;Here&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
